@@ -1,3 +1,5 @@
+開発環境とOSの設定
+
 # 日本語入力
 sudo apt-get install fcitx-mozc
 # git
@@ -28,3 +30,23 @@ sudo apt-get install emacs24
 # git client をinstall
 sudo apt-get install tig
 
+# NFS suppprt
+sudo apt-get install nfs-common nfs-kernel-server
+
+
+# ansible install
+sudo apt-get update
+sudo apt-get install software-properties-common
+sudo apt-add-repository ppa:ansible/ansible
+sudo apt-get update
+sudo apt-get install ansible
+
+# docker install
+sudo apt-get install apt-transport-https ca-certificates curl
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository \
+        "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+sudo apt-get update
+sudo apt-get install docker-ce
