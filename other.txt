@@ -1,0 +1,10 @@
+# install intellij idea community edition install
+sudo snap install intellij-idea-community --classic --edge
+
+# emacsの設定
+git clone https://github.com/katamotokosuke/.emacs.d.git
+ln -nfs ~/git/.emacs.d/ ~/
+
+# cask install
+curl -fsSL https://raw.githubusercontent.com/cask/cask/master/go | python
+
