@@ -1,5 +1,10 @@
 # install intellij idea community edition install
 sudo snap install intellij-idea-community --classic --edge
+# rubymine
+sudo snap install rubymine --classic
+# datagrip
+sudo snap install datagrip --classic
+
 
 # emacsの設定
 git clone https://github.com/katamotokosuke/.emacs.d.git
