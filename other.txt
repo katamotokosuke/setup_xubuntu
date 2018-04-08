@@ -13,3 +13,9 @@ ln -nfs ~/git/.emacs.d/ ~/
 # cask install
 curl -fsSL https://raw.githubusercontent.com/cask/cask/master/go | python
 
+
+
+# flex install
+sudo apt-get install flex
+# bison
+sudo apt-get install bison
